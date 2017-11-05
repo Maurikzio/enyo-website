@@ -52,6 +52,8 @@ header .contentHeader .btnDownload {
 }
 header .contentHeader .btnDownload:hover {
   cursor: pointer;
+  -webkit-box-shadow: .5px 2px 10px #9db8d7;
+          box-shadow: .5px 2px 10px #9db8d7;
 }
 header .contentHeader .btnDownload i {
   margin-right: 18px;
@@ -79,7 +81,6 @@ header .container-fluid .backParagraph {
   left: 0;
 }
 header .container-fluid .bottomContentHeader .imgBottom {
-  border: .5px dashed black;
   -webkit-box-ordinal-group: 3;
   -webkit-order: 2;
       -ms-flex-order: 2;
@@ -93,7 +94,6 @@ header .container-fluid .bottomContentHeader .imgBottom img {
   top: -35px;
 }
 header .container-fluid .bottomContentHeader .contentBottom {
-  border: .5px dashed red;
   -webkit-box-ordinal-group: 2;
   -webkit-order: 1;
       -ms-flex-order: 1;
@@ -138,7 +138,153 @@ header .container-fluid .bottomContentHeader .contentBottom .btnReadMore {
   -webkit-border-radius: 28px;
           border-radius: 28px;
   border-color: transparent;
+  margin-bottom: 120px;
 }
 header .container-fluid .bottomContentHeader .contentBottom .btnReadMore:hover {
   cursor: pointer;
+  -webkit-box-shadow: .5px 2px 10px #115490;
+          box-shadow: .5px 2px 10px #115490;
+}
+.addInfo {
+  background-color: #f7f9fb;
+}
+.addInfo .contentAddInfo {
+  padding: 70px 30px;
+}
+.addInfo .contentAddInfo .theIcon {
+  margin-top: 8px;
+}
+.addInfo .contentAddInfo .theContent h3 {
+  color: #25365d;
+  text-transform: uppercase;
+  font-family: "Open Sans";
+  font-size: 22px;
+  font-weight: 400;
+}
+.addInfo .contentAddInfo .theContent p {
+  color: #5a5a5a;
+}
+.addInfo .contentAddInfo .highResolution {
+  margin: 35px 0;
+}
+.addInfo .contentAddInfo .photography {
+  margin: 35px 0;
+}
+.addInfo .contentAddInfo .editableLayers {
+  margin: 35px 0;
+}
+.addInfo .contentAddInfo .support {
+  margin: 35px 0;
+}
+.addInfo .contentAddInfo .powerfullTheme {
+  margin: 35px 0;
+}
+.addInfo .contentAddInfo .ttv {
+  margin: 35px 0;
+}
+.features h2 {
+  font-family: "Bebas Neue";
+  color: #25365d;
+  font-size: 72px;
+  font-weight: bold;
+  text-align: center;
+  margin: 100px 0;
+}
+.features .contentFeatures .macs {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+  padding: 0;
+  min-width: 825px;
+}
+.thePlans {
+  background-color: #f7f9fb;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.thePlans .topPlans {
+  text-align: center;
+}
+.thePlans .topPlans h2 {
+  font-family: "Bebas Neue";
+  color: #25365d;
+  font-size: 72px;
+  margin-bottom: 50px;
+}
+.thePlans .contentThePLans {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+}
+.thePlans .contentThePLans .plan {
+  background-color: white;
+  text-align: center;
+  padding: 40px 0px;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+}
+.thePlans .contentThePLans .plan:hover {
+  -webkit-box-shadow: 5px 10px 30px #25365d;
+          box-shadow: 5px 10px 30px #25365d;
+  cursor: pointer;
+}
+.thePlans .contentThePLans .plan h3 {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 200;
+}
+.thePlans .contentThePLans .plan p {
+  font-size: 22px;
+}
+.thePlans .contentThePLans .plan p span {
+  font-size: 50px;
+  font-weight: 700;
+  color: #25365d;
+}
+.thePlans .contentThePLans .plan a {
+  text-decoration: none;
+  color: #5a5a5a;
+}
+footer {
+  padding-top: 150px;
+  text-align: center;
+}
+footer h3 {
+  margin-bottom: 60px;
+  text-transform: uppercase;
+  font-family: "Bebas Neue";
+  font-size: 72px;
+  color: #25365d;
+}
+footer p {
+  margin-bottom: 60px;
+  color: #5a5a5a;
+}
+footer .btnDownload {
+  color: #fff;
+  background-color: #25365d;
+  text-transform: capitalize;
+  font-size: 18px;
+  padding: 19px 55px 19px 39px;
+  -webkit-border-radius: 28px;
+          border-radius: 28px;
+  border-color: transparent;
+  margin-top: 60px;
+  margin-bottom: 10px;
+}
+footer .btnDownload:hover {
+  cursor: pointer;
+  -webkit-box-shadow: .5px 2px 10px #115490;
+          box-shadow: .5px 2px 10px #115490;
+}
+footer .btnDownload i {
+  margin-right: 18px;
 }
