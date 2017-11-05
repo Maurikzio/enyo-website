@@ -1,6 +1,144 @@
-.navbar-collapse {
+header .contentHeader {
+  position: relative;
+}
+header .contentHeader nav .navbar-brand {
+  font-size: 35px;
+  color: white;
+}
+header .contentHeader nav .navbar-brand:before {
+  content: "\f0d9";
+  font-family: "FontAwesome";
+  color: red;
+  font-size: 35px;
+  margin-right: 5px;
+}
+header .contentHeader nav .navbar-collapse {
   -webkit-box-pack: end;
   -webkit-justify-content: flex-end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+}
+header .contentHeader nav .navbar-collapse .navbar-nav .nav-item .nav-link {
+  color: #fff;
+  font-size: 18px;
+}
+header .contentHeader h1 {
+  font-family: 'Bebas Neue';
+  text-transform: uppercase;
+  margin-top: 100px;
+  margin-bottom: 27px;
+  color: #fff;
+  font-size: 91px;
+  line-height: .8;
+}
+header .contentHeader p {
+  color: #bbd8ff;
+  font-size: 24px;
+  font-family: "Open Sans";
+  width: 75%;
+  margin: 0 auto;
+}
+header .contentHeader .btnDownload {
+  color: #fff;
+  background-color: #25365d;
+  text-transform: capitalize;
+  font-size: 18px;
+  padding: 19px 55px 19px 39px;
+  -webkit-border-radius: 28px;
+          border-radius: 28px;
+  border-color: transparent;
+  margin-top: 60px;
+  margin-bottom: 350px;
+}
+header .contentHeader .btnDownload:hover {
+  cursor: pointer;
+}
+header .contentHeader .btnDownload i {
+  margin-right: 18px;
+}
+header .contentHeader .imgBackgroundHeader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -5;
+}
+header .container-fluid {
+  position: relative;
+}
+header .container-fluid .backParagraph {
+  width: 100%;
+  color: #fff;
+  font-family: 'Bebas Neue';
+  text-transform: uppercase;
+  font-size: 240px;
+  padding-bottom: 0px;
+  line-height: 180px;
+  position: absolute;
+  text-align: center;
+  top: -130px;
+  left: 0;
+}
+header .container-fluid .bottomContentHeader .imgBottom {
+  border: .5px dashed black;
+  -webkit-box-ordinal-group: 3;
+  -webkit-order: 2;
+      -ms-flex-order: 2;
+          order: 2;
+  padding: 0px;
+  position: relative;
+}
+header .container-fluid .bottomContentHeader .imgBottom img {
+  border: 1px dashed white;
+  position: absolute;
+  top: -35px;
+}
+header .container-fluid .bottomContentHeader .contentBottom {
+  border: .5px dashed red;
+  -webkit-box-ordinal-group: 2;
+  -webkit-order: 1;
+      -ms-flex-order: 1;
+          order: 1;
+  position: relative;
+  padding-top: 50px;
+}
+header .container-fluid .bottomContentHeader .contentBottom h2 {
+  text-transform: uppercase;
+  font-family: "Bebas Neue";
+  color: #25365d;
+  font-size: 72px;
+  margin-bottom: 35px;
+  position: absolute;
+  top: -35px;
+}
+header .container-fluid .bottomContentHeader .contentBottom p {
+  color: #00345f;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 25px;
+}
+header .container-fluid .bottomContentHeader .contentBottom .listInHeader {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 40px;
+}
+header .container-fluid .bottomContentHeader .contentBottom .listInHeader li {
+  color: #b0bfd5;
+}
+header .container-fluid .bottomContentHeader .contentBottom .listInHeader li:before {
+  content: "\f05d";
+  font-family: "FontAwesome";
+  color: #FF2868;
+  margin-right: 10px;
+}
+header .container-fluid .bottomContentHeader .contentBottom .btnReadMore {
+  color: #fff;
+  background-color: #25365d;
+  font-size: 18px;
+  padding: 19px 55px;
+  -webkit-border-radius: 28px;
+          border-radius: 28px;
+  border-color: transparent;
+}
+header .container-fluid .bottomContentHeader .contentBottom .btnReadMore:hover {
+  cursor: pointer;
 }
